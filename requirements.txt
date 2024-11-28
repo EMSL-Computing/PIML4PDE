@@ -1,0 +1,7 @@
+numpy
+jaxlib
+jax
+optax
+matplotlib
+scikit-learn
+notebook

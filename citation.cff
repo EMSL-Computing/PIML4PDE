@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as follows:"
+title: "PIML4PDE: Physics-Informed Machine Learning for Solving Partial Differential Equations"
+authors:
+  - family-names: "Mamud"
+    given-names: "Md Lal"
+    affiliation: "Subsurface Science Group, Pacific Northwest National Laboratory, Richland, United States"
+
+  - family-names: "Roy"
+    given-names: "Pratanu"
+    affiliation: "Lawrence Livermore National Laboratory, Livermore, CA, United States"
+
+  - family-names: "Mudunuru"
+    given-names: "Maruti"
+    affiliation: "Subsurface Science Group, Pacific Northwest National Laboratory, Richland, United States"
+
+  - family-names: "Kibria"
+    given-names: "Md Golam"
+    affiliation: "Morehead State University, Department of Engineering Sciences, Morehead, United States"
+
+  - family-names: "Jaysaval"
+    given-names: "Piyoosh"
+    affiliation: "Subsurface Science Group, Pacific Northwest National Laboratory, Richland, United States"
+
+  - family-names: "Alam"
+    given-names: "Md Samrat"
+    affiliation: "Natural Resources Canada, Geological Survey of Canada - Quebec, Quebec City, QC, Canada"
+
+  - family-names: "Akter"
+    given-names: "Habiba"
+    affiliation: "Queen Mary, University of London, Networks and Digital Systems, London, United Kingdom"
+
+  - family-names: "Karra"
+    given-names: "Satish"
+    affiliation: "Environmental Molecular Sciences Laboratory, Pacific Northwest National Laboratory, Richland, United States"
+publisher: "To be decided"
+published-year: 2024
+version: "1.0"
+doi: "To be decided"
+
