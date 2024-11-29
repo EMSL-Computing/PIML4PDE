@@ -27,7 +27,7 @@ The PIML codes available here can also be directly applied to the following fiel
 - Describes the electric potential in regions without charges.
 - Forms the foundation for studying electric fields and potentials, often applied in physics and electronics.
 
-#### **5. Elasticity Problems**
+#### **Elasticity Problems**
 - Simulates stress distributions in materials under equilibrium conditions.
 - Commonly used in mechanical and structural engineering.
 
@@ -179,7 +179,7 @@ source ~/.bashrc
 - Verify the installation:
 
 ```
-conda --version`
+conda --version
 ```
 
 
@@ -246,27 +246,27 @@ pip install <package-name>
 
 
 ## Authors
-* Lal Mamud (developer), Pacific Northwest National Laboratory, Richland, US (<lal.mamud@pnnl.gov>)
-* Pratanu Roy, Lawrence Livermore National Laboratory, Livermore, CA, US (<maruti@pnnl.gov>)
-* Maruti Mudunuru, Pacific Northwest National Laboratory, Richland, US (<roy23@llnl.gov>)
-* Md Golam Kibria, Morehead State University, Morehead, US (<m1235960@moreheadstate.edu>)
-* Piyoosh Jaysaval, Pacific Northwest National Laboratory, Richland, US (<piyoosh.jaysaval@pnnl.gov>)
+* Lal Mamud (lead developer), Pacific Northwest National Laboratory, Richland, WA, USA (<lal.mamud@pnnl.gov>)
+* Pratanu Roy, Lawrence Livermore National Laboratory, Livermore, CA, USA (<roy23@llnl.gov>)
+* Maruti K. Mudunuru, Pacific Northwest National Laboratory, Richland, WA, USA (<maruti@pnnl.gov>)
+* Md Golam Kibria, Morehead State University, Morehead, KY, USA (<m1235960@moreheadstate.edu>)
+* Piyoosh Jaysaval, Pacific Northwest National Laboratory, Richland, WA, USA (<piyoosh.jaysaval@pnnl.gov>)
 * Md Samrat Alam, Geological Survey of Canada, Quebec City, Canada (<samrat.alam@nrcan-rncan.gc.ca>)
 * Habiba Akter, University of London, London, UK (<eex373@qmul.ac.uk>)
-* Satish Karra, Pacific Northwest National Laboratory, Richland, US (<karra@pnnl.gov>)
+* Satish Karra, Environmental Molecular Sciences Laboratory, Richland, WA, USA (<karra@pnnl.gov>)
 
 
 
 
-## Development and questions
+## Development, contribution, and questions
 Contact Md Lal Mamud(lal.mamud@pnnl.gov) and/or Maruti Mudunuru (maruti@pnnl.gov): If you have questions or need help getting started.
 
 
 
 ## Acknowledgements
-This work was performed on a project award (Award DOIs: 10.46936/lser.proj.2023.60720/60008914, 10.46936/lser.proj.2023.60723/60008915, 10.46936/intm.proj.2023.60904/60008965) from the Environmental Molecu-lar Sciences Laboratory (EMSL), a DOE Office of Science User Facility spon-sored by the Biological and Environmental Research program under contract no. DE-AC05-76RL01830.
+This work was performed on a project award (Award DOIs: 10.46936/lser.proj.2023.60720/60008914, 10.46936/lser.proj.2023.60723/60008915, 10.46936/intm.proj.2023.60904/60008965) from the Environmental Molecular Sciences Laboratory (EMSL), a DOE Office of Science User Facility spon-sored by the Biological and Environmental Research program under contract no. DE-AC05-76RL01830.
 
-
+PNNL-SA-XXXXX
 
 ## Disclaimer
 This research work was prepared as an account of work sponsored by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. The views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof.
