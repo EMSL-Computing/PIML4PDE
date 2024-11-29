@@ -259,7 +259,7 @@ pip install <package-name>
 
 
 ## Development, contribution, and questions
-Contact Md Lal Mamud(lal.mamud@pnnl.gov) and/or Maruti Mudunuru (maruti@pnnl.gov): If you have questions or need help getting started.
+Contact Md Lal Mamud (lal.mamud@pnnl.gov) and/or Maruti Mudunuru (maruti@pnnl.gov): If you have questions or need help getting started.
 
 
 
