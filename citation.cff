@@ -4,23 +4,23 @@ title: "PIML4PDE: Physics-Informed Machine Learning for Solving Partial Differen
 authors:
   - family-names: "Mamud"
     given-names: "Md Lal"
-    affiliation: "Subsurface Science Group, Pacific Northwest National Laboratory, Richland, United States"
+    affiliation: "Subsurface Science Group, Pacific Northwest National Laboratory, Richland, WA, United States"
 
   - family-names: "Roy"
     given-names: "Pratanu"
     affiliation: "Lawrence Livermore National Laboratory, Livermore, CA, United States"
 
   - family-names: "Mudunuru"
-    given-names: "Maruti"
-    affiliation: "Subsurface Science Group, Pacific Northwest National Laboratory, Richland, United States"
+    given-names: "Maruti Kumar"
+    affiliation: "Subsurface Science Group, Pacific Northwest National Laboratory, Richland, WA, United States"
 
   - family-names: "Kibria"
     given-names: "Md Golam"
-    affiliation: "Morehead State University, Department of Engineering Sciences, Morehead, United States"
+    affiliation: "Morehead State University, Department of Engineering Sciences, Morehead, KY, United States"
 
   - family-names: "Jaysaval"
     given-names: "Piyoosh"
-    affiliation: "Subsurface Science Group, Pacific Northwest National Laboratory, Richland, United States"
+    affiliation: "Subsurface Science Group, Pacific Northwest National Laboratory, Richland, WA, United States"
 
   - family-names: "Alam"
     given-names: "Md Samrat"
@@ -32,9 +32,10 @@ authors:
 
   - family-names: "Karra"
     given-names: "Satish"
-    affiliation: "Environmental Molecular Sciences Laboratory, Pacific Northwest National Laboratory, Richland, United States"
+    affiliation: "Environmental Molecular Sciences Laboratory, Pacific Northwest National Laboratory, Richland, WA, United States"
 
-publisher: "To be decided"
-published-year: 2024
-version: "1.0"
-doi: "To be decided"
+date-released: "2024-12-2"
+version: "0.1.0"
+repository-code: "https://github.com/EMSL-Computing/PIML4PDE/"
+doi: "XXXX"
+license: "https://github.com/EMSL-Computing/PIML4PDE/blob/main/README.md"

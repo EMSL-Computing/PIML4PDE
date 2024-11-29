@@ -5,3 +5,7 @@ optax
 matplotlib
 scikit-learn
 notebook
+pandas
+yapf
+scipy
+jupyterlab
