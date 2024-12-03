@@ -94,7 +94,7 @@ Alternatively, download Git from Git's official website and install it manually.
 
 To clone the **PIML4PDE** repository, follow these steps:
 
-1. Open a Terminal (Mac) or Command Git-Bash/Prompt/PowerShell (Windows).
+1. Open a Terminal (Mac or Linux) or Git-Bash/Command-Prompt/PowerShell (Windows).
 
 2. Navigate to the directory where you want to clone the repository:
 
@@ -133,26 +133,49 @@ If Conda is not installed, download and install either [Anaconda](https://www.an
 conda --version
 ```
 
-##### For Mac:
-- Download the Anaconda installer for macOS from [Anaconda's official website](https://www.anaconda.com/).
-- Open the downloaded `.pkg` file and follow the instructions to install Anaconda.
-- Alternatively, for the command-line installer, open Terminal and run:
+##### For macOS (ARM and Intel):
+- For macOS with ARM architecture (M series):
+   - Use Miniforge to install a Conda environment compatible with the ARM architecture.
+   - Download the Miniforge installer for macOS (ARM64) from the Miniforge GitHub releases page.
+   - Open Terminal and run the following commands:
+      - Download and install Miniforge:
+      ```
+      curl -L -O https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh
+      bash Miniforge3-MacOSX-arm64.sh
+      ```
+      - Follow the instructions during installation.
+      - Restart the terminal or run
+      ```
+      source ~/.zshrc
+      ```
 
-```
-   bash ~/Downloads/Anaconda3-latest-MacOSX-x86_64.sh
-```
+      - Verify the installation:
 
-- After installation, restart the terminal or run:
+      ```
+         conda --version
+      ```
 
-```
-   source ~/.bash_profile
-```
 
-- Verify the installation:
+- For macOS with Intel x86 architecture:
+   - Download the Anaconda installer for macOS (Intel) from Anaconda's official website.
+   - Open the downloaded .pkg file and follow the instructions to install Anaconda.
+   - Alternatively, for the command-line installer, open Terminal and run:
 
-```
-   conda --version
-```
+   ```
+      bash ~/Downloads/Anaconda3-latest-MacOSX-x86_64.sh
+   ```
+
+   - After installation, restart the terminal or run:
+
+   ```
+      source ~/.bash_profile
+   ```
+
+   - Verify the installation:
+
+   ```
+      conda --version
+   ```
 
 ##### For Linux:
 - Open the Terminal and download the Anaconda installer:
@@ -218,7 +241,7 @@ jupyter notebook
 
 Navigate to the example directory in the browser interface. Open and run the testing script *testing_packages_for_pinn.ipynb*. 
 
-You should see the following printout text after running the testing script and successful installation of all the packages:  
+You should see the following printout text after running the script if you installed all the packages successfully.  
 ```
 Testing imports and basic functionality...
 
