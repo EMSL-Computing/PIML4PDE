@@ -2,6 +2,7 @@ numpy
 jaxlib
 jax
 optax
+jaxopt
 matplotlib
 scikit-learn
 notebook
