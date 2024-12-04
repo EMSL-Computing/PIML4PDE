@@ -118,7 +118,7 @@ cd PIML4PDE
 
 ### B. Setting Up a Python Environment for **PIML4PDE** framework Using Conda
 
-#### 1. Install Conda
+#### 1. Install Conda (Preferred) or Creat your local env 
 If Conda is not installed, download and install either [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html), depending on your preference.
 
 ##### For Windows:
@@ -263,6 +263,64 @@ pip uninstall <package-name>
 pip install <package-name>
 
 ```
+
+
+### C. Setting Up a Python Environment for **PIML4PDE** framework Without Conda
+
+#### 1. Install Python
+If Python is not already installed on your system, download and install the latest Python version:
+
+- Windows and macOS:Visit the official Python website and download the appropriate installer for your operating system.
+
+- Linux: Use your system's package manager to install Python (e.g., sudo apt install python3 on Ubuntu).
+
+During installation on Windows, ensure you check the box "Add Python to PATH".
+
+#### 2. Create and Activate a Virtual Environment
+##### For Windows:
+- Open Command Prompt or PowerShell and navigate to your project directory.
+- Run the following commands to create and activate a virtual environment named **ml4pde**:
+
+```
+python -m venv ml4pde
+
+.\ml4pde\Scripts\activate>
+```
+
+##### For macOS/Linux:
+- Open Terminal and navigate to your project directory.
+- Run the following commands to create and activate a virtual environment named ml4pde:
+```
+python3 -m venv ml4pde
+source ml4pde/bin/activate
+```
+
+#### 3. Install Required Packages
+After activating the virtual environment, install the required Python packages:
+Use the **requirements.txt** file to install all dependencies:
+```
+pip install -r requirements.txt
+```
+
+#### 4. Verify the Installation
+Run the following command to launch a Jupyter Notebook:
+```
+jupyter notebook
+```
+
+Navigate to the example directory in the browser interface, open the testing script **testing_packages_for_pinn.ipynb**, and run it. You should see:
+```
+Testing imports and basic functionality...
+
+NumPy: OK
+JAX: OK
+Optax: OK
+Matplotlib: OK
+Scikit-learn: OK
+
+Testing complete!
+```
+
 
 ---
 
