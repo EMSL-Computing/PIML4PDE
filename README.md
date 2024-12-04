@@ -266,7 +266,7 @@ pip install <package-name>
 ```
 
 
-### Option-2: Using Conda Without Conda
+### Option-2: Without Conda
 
 #### 1. Install Python
 If Python is not already installed on your system, download and install the latest Python version:
