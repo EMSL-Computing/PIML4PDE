@@ -116,7 +116,8 @@ cd PIML4PDE
 
 
 
-### B. Setting Up a Python Environment for **PIML4PDE** framework Using Conda
+### B. Setting Up a Python Environment for **PIML4PDE** framework 
+### Option-1: Using Conda
 
 #### 1. Install Conda (Preferred) or Creat your local env 
 If Conda is not installed, download and install either [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html), depending on your preference.
@@ -265,7 +266,7 @@ pip install <package-name>
 ```
 
 
-### C. Setting Up a Python Environment for **PIML4PDE** framework Without Conda
+### Option-2: Using Conda Without Conda
 
 #### 1. Install Python
 If Python is not already installed on your system, download and install the latest Python version:
